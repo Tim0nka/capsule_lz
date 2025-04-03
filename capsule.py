@@ -9,7 +9,7 @@ class SunnyDAY:
 
 
     @loging
-    def preprocess_data(self):
+    def day_data(self):
        
         self.data['DATE'] = self.data['DATE'].astype(str)
         self.data = self.data[self.data['DATE'].str.startswith('2000')][['MONTH', 'BASEL_sunshine']].dropna()

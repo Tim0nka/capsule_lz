@@ -6,9 +6,9 @@ def main():
     
     
     sunny_stats = SunnyDAY(filepath)
-    sunny_stats.preprocess_data()
+    sunny_stats.day_data()
     
-    
+   
     sunny_stats.paint()
 
 if __name__ == "__main__":
